@@ -31,8 +31,11 @@
           <h3>
 <a name="what-is-angular-geotooltip" class="anchor" href="#what-is-angular-geotooltip"><span class="octicon octicon-link"></span></a>What is Angular-GeoTooltip?</h3>
 
-<p>It is a simple AngularJS directive that you can use in your content to display geographical tooltips when hovering your text. It can be a 2D point (latitude &amp; longitude), a GeoJSON shape, or both. It is designed to be smart about its positioning, so that you don't have to fight against vicious scrollbars. It is also highly configurable, both using a global configuration, or using attributes on each directive.
-Angular-GeoTooltip is based on the wonderful LeafletJS library to display tile-based maps, and can be configured to use any tile provider such as MapBox; by default it will use the free MapQuest OSM Tiles.</p>
+<p>It is a simple AngularJS directive that you can use in your content to display geographical tooltips when hovering your text. It can be a 2D point (latitude &amp; longitude), a GeoJSON shape, or both. </p>
+
+<p>It is designed to be smart about its positioning, so that you don't have to fight against vicious scrollbars. It is also highly configurable, both using a global configuration, or using attributes on each directive. And finally, it is designed to be used many times in the same page, by reusing its own elements instead of spawning ghost DOM nodes everywhere.</p>
+
+<p>Angular-GeoTooltip is based on the wonderful LeafletJS library to display tile-based maps, and can be configured to use any tile provider such as MapBox; by default it will use the free MapQuest OSM Tiles.</p>
 
 <div class="highlight highlight-html"><pre><span class="nt">&lt;geotooltip</span> <span class="na">geojson=</span><span class="s">"geoJson"</span> <span class="na">coords=</span><span class="s">"pointCoordinates"</span> <span class="na">delay=</span><span class="s">"0"</span> <span class="na">width=</span><span class="s">"600"</span> <span class="na">height=</span><span class="s">"400"</span><span class="nt">&gt;</span>Hello, I am a tooltip!<span class="nt">&lt;/geotooltip&gt;</span>
 </pre></div>
